@@ -18,7 +18,7 @@
             echo "Comm=".$mainbody[5];
         */ 
         //请将下面这行中$mainbody[1]和$mainbody[2]分别替换成你自己的数据库用户名和密码，例如：$conn=$mysql_s->construct($mainbody[0],"root","1234567",$mainbody[3],rand(0, 32000),$mainbody[4]);
-		$conn=$mysql_s->construct($mainbody[0],$mainbody[1],$mainbody[2],$mainbody[3],rand(0, 32000),$mainbody[4]);
+		$conn=$mysql_s->construct($mainbody[0],"w4b6a2z8yhjo","pscale_pw_xiDyVYsUgeRbptLPNN7dosn_skC-6DpsTlYrzn96uBc",$mainbody[3],rand(0, 32000),$mainbody[4]);
 		echo $conn;
 		if($mainbody[5]=="Connect"){
             echo "ConnectSucceeded";
